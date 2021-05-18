@@ -1,0 +1,191 @@
+.header {
+  height: 80vh;
+  background: black;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 80px;
+  overflow: hidden;
+}
+
+.header-search {
+  /* display: flex; */
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+}
+
+.nav-heading {
+  color: #f0f0f0;
+  font-size: 48px;
+  max-width: 360px;
+}
+
+.header-icon {
+  border-radius: 50%;
+  background: red;
+  padding: 8px;
+  position: absolute;
+  right: 27rem;
+  top: 18.5rem;
+}
+.header-icon-loc {
+  padding: 8px;
+  position: absolute;
+  left: 31rem;
+  top: 18.3rem;
+}
+
+.headerInput-search {
+  background-image: element();
+  width: 120%;
+  border: none;
+  height: 2.5rem;
+  border-radius: 25px;
+  padding: 12px;
+  padding-left: 35px;
+}
+
+.headerInput-search:focus {
+  border: 1px solid blue;
+}
+
+.main-grid {
+  display: flex;
+  text-align: center;
+  justify-self: center;
+  justify-content: space-around;
+  align-self: center;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+.main-img {
+  padding: 20px;
+  margin: 5px;
+  text-align: center;
+  align-content: center;
+}
+
+.main-link {
+  color: red;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.register-text {
+  font-weight: 700;
+  max-width: 330px;
+  /* font-size: 15px; */
+}
+
+.main-img > img {
+  height: 200px;
+  /* border: 2px solid red; */
+  display: flex;
+  margin: 30px;
+}
+
+.comfy {
+  display: flex;
+  margin: 40px;
+}
+
+.comfy > p {
+  line-height: 4vh;
+  margin: 20px;
+}
+
+.comfy > img {
+  width: 1800px;
+
+  height: 450px;
+  height: 100%;
+  margin-right: 50px;
+}
+
+.comfy2 {
+  display: flex;
+  margin: 40px;
+}
+
+.comfy2 > p {
+  line-height: 2vh;
+  margin: 20px;
+}
+
+.comfy2 > img {
+  width: 1800px;
+  height: 450px;
+  height: 100%;
+  margin-right: 50px;
+}
+
+.find-content {
+  margin: 70px;
+  margin-top: 0;
+  padding: 50px 0px 0px 0px;
+}
+
+.find-content > h1 {
+  max-width: 330px;
+  padding: 10px 0px 10px 10px;
+  font-size: 40px;
+}
+
+.find-content > span {
+  max-width: 1000px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 20px;
+  letter-spacing: 0ch;
+  display: block;
+  white-space: pre-line;
+  padding: 10px 0px 10px 10px;
+}
+
+.find-content > a {
+  text-decoration: none;
+  color: #fff;
+  background-color: red;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 8px;
+  margin-left: 20px;
+}
+
+.find-content2 {
+  margin: 70px;
+  margin-top: 0;
+  padding: 50px 0px 0px 0px;
+}
+
+.find-content2 > h1 {
+  max-width: 330px;
+  padding: 10px 0px 10px 10px;
+  font-size: 32px;
+}
+
+.find-content2 > span {
+  max-width: 1000px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 25px;
+  letter-spacing: 0ch;
+  display: block;
+  white-space: pre-line;
+  padding: 10px 0px 10px 10px;
+}
+
+.find-content2 > a {
+  text-decoration: none;
+  color: #fff;
+  background-color: red;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 8px;
+  margin-left: 20px;
+}
